@@ -270,6 +270,8 @@ require('lazy').setup({
 }, {})
 
 
+require("configs.formatter")
+
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
