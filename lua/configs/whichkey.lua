@@ -11,7 +11,9 @@ local wk = require 'which-key'
 wk.register({
   f = {
     name = 'File', -- optional group name
+    e = { '<cmd>E<cr>', 'Open File Explorer' },
     s = { '<cmd>so %<cr>', 'Source Current File' },
     w = { '<cmd>w<cr>', 'Save File' },
   },
+  Q = { '<cmd>q<cr>', 'Exit Neovim' },
 }, { prefix = '<leader>' })
