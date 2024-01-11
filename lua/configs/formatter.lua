@@ -12,6 +12,7 @@ require('formatter').setup {
     lua = { require('formatter.filetypes.lua').stylua },
     c = { require('formatter.filetypes.c').astyle },
     bash = { require('formatter.filetypes.sh').shfmt },
+    go = { require('formatter.filetypes.go').gofmt },
 
     ['*'] = {
       require('formatter.filetypes.any').remove_trailing_whitespace,
