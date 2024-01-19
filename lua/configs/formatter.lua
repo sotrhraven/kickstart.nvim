@@ -13,6 +13,7 @@ require('formatter').setup {
     c = { require('formatter.filetypes.c').astyle },
     bash = { require('formatter.filetypes.sh').shfmt },
     go = { require('formatter.filetypes.go').gofmt },
+    python = { require('formatter.filetypes.python').black },
 
     ['*'] = {
       require('formatter.filetypes.any').remove_trailing_whitespace,
