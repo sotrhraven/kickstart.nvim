@@ -13,6 +13,7 @@ require('formatter').setup {
     c = { require('formatter.filetypes.c').astyle },
     bash = { require('formatter.filetypes.sh').shfmt },
     go = { require('formatter.filetypes.go').gofmt },
+    java = { require('formatter.filetypes.java').clangformat },
     python = { require('formatter.filetypes.python').black },
 
     ['*'] = {
